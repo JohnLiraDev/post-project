@@ -1,0 +1,15 @@
+/* Adicione este CSS no seu arquivo de estilos */
+.custom-list-style ul,
+.custom-list-style ol {
+  list-style-position: initial;
+}
+.custom-list-style ul,
+.custom-list-style ol {
+  margin-left: 1.5em;
+}
+
+.custom-list-style li {
+  display: list-item;
+  margin-left: 0.5em;
+  list-style-position: initial;
+}
