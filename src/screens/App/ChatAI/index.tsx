@@ -65,7 +65,7 @@ export default function ChatAI() {
           <Avatar className="w-8 h-8 border">
             <AvatarImage src="/placeholder-user.jpg" />
             <AvatarFallback>
-              p <BotIcon />
+              <BotIcon />
             </AvatarFallback>
           </Avatar>
           <div className="grid gap-1 bg-muted rounded-lg p-3 max-w-[70%]">
