@@ -61,6 +61,25 @@ export default function ChatAI() {
             </AvatarFallback>
           </Avatar>
         </div>
+        <div className="flex items-start gap-4">
+          <Avatar className="w-8 h-8 border">
+            <AvatarImage src="/placeholder-user.jpg" />
+            <AvatarFallback>
+              p <BotIcon />
+            </AvatarFallback>
+          </Avatar>
+          <div className="grid gap-1 bg-muted rounded-lg p-3 max-w-[70%]">
+            <div className="font-medium">ChatGPT</div>
+            <div className="text-muted-foreground">
+              <p>
+                I'm capable of assisting with a wide variety of tasks, from
+                research and analysis to creative writing and coding. I can help
+                you brainstorm ideas, answer questions, and provide detailed
+                explanations on complex topics.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <DialogFooter>
         <Textarea
