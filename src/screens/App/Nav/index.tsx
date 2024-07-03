@@ -3,6 +3,7 @@ import Logo from "../../../assets/logo.svg";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import MobileMenu from "../components/MobileMenu";
+
 export default function App() {
   const [isNav, setIsNav] = useState<boolean>(false);
   const toggleNav = () => {

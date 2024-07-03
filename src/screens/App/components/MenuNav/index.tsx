@@ -7,7 +7,13 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "../../../../components/ui/navigation-menu";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "../../../../components/ui/dialog";
 import { Button } from "../../../../components/ui/button";
+import ChatAI from "../../ChatAI";
 
 export default function NavMenu() {
   interface itensLink {
@@ -49,7 +55,16 @@ export default function NavMenu() {
     <NavigationMenu className="hidden md:inline-block">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Button>Chat Bot</Button>
+          <Dialog>
+            <DialogTrigger className=" ">
+              <Button>
+                <p>Chat AI</p>
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="w-[90%] rounded-lg">
+              <ChatAI></ChatAI>
+            </DialogContent>
+          </Dialog>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
