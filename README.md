@@ -1,6 +1,6 @@
 # 📝 Notas com Integração GPT
 
-Este projeto é um aplicativo para salvar notas, integrado com o Chat GPT. A ideia é utilizar a IA para criar notas automaticamente a partir de conversas, facilitando o armazenamento e a organização de informações relevantes.
+Este projeto é um aplicativo para salvar notas, integrado com o Chat GPT. A ideia é utilizar a IA para auxiliar na criação de  notas  a partir de conversas, facilitando o armazenamento e a organização de informações relevantes.
 
 ## ✨ Funcionalidades
 
